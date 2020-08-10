@@ -1,0 +1,15 @@
+
+
+#heading1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  color: #683BA4;
+}
+#side-img{
+  width: 450px;
+  height: 450px;
+}
+
+.lead{
+  font-weight: 500;
+}
