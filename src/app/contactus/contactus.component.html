@@ -1,5 +1,13 @@
 <div class="container">
   <div class="col-md-12 mt-2"> <h1 class="text-center">Contact Us</h1></div>
+  <div class="col-md-12 mt-1">
+    <div class="col-md-6 hide">
+      <div class="alert  alert-dismissible fade show" style="background-color:#03A7E8;">
+        <button type="button" class="close" data-dismiss="alert" >&times;</button>
+        <strong class="text-white">Success!</strong>
+      </div>
+    </div>
+  </div>
   <div class="col-md-12">
     <div class="row">
       <div class="col-md-6">
@@ -11,12 +19,12 @@
             <div class="input-group-prepend">
               <span class="input-group-text">@</span>
             </div>
-            <input type="email" class="form-control" placeholder="Email address....">
+            <input type="email" class="form-control" placeholder="Email address...." id="input">
           </div>
           <div class="form-group">
 
             <select class="form-control" id="sel1">
-              <option selected>Please select your report</option>
+              <option selected disabled>Please select your report</option>
               <option>Bugs</option>
               <option>Adult Content</option>
               <option>Other</option>
@@ -26,8 +34,9 @@
 
             <textarea class="form-control" rows="5" id="comment" placeholder="Message..."></textarea>
           </div>
-          <button class="btn btn-primary" type="submit">Submit</button>
+
         </form>
+        <button class="btn btn-primary submit" type="submit">Submit</button>
       </div>
     </div>
   </div>

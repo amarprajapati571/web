@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-contactus',
@@ -9,7 +10,21 @@ export class ContactusComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    $(document).ready(function(){
+      $(".hide").hide();
+      $(".close").click(function(){
+          $(".hide").fadeOut();
+      });
+      $(".submit").click(function(){
+        $(".hide").show();
+      });
+
+      $(".submit").click(function(){
+        $('.text-success').val();
+      });
+    });
   }
+
 
 }
